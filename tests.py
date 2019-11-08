@@ -10,13 +10,10 @@ from app import hello
 class TestBase(TestCase):
 
 
-    def setUp(self):
-
-
-    def tearDown(self):
         
 
 class TestModels(TestBase):
+
 
 
 class TestViews(TestBase):
