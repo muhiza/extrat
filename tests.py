@@ -9,13 +9,6 @@ from app import hello
 
 class TestBase(TestCase):
 
-
-        
-
-class TestModels(TestBase):
-
-
-
 class TestViews(TestBase):
 
     def test_homepage_view(self):
