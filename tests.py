@@ -8,6 +8,9 @@ from app import hello
 
 
 class TestBase(TestCase):
+	"""
+	Test that homepage is accessible without login
+	"""
 
 class TestViews(TestBase):
 	def test_homepage_view(self):
