@@ -12,12 +12,12 @@ class TestBase(TestCase):
 	Test that homepage is accessible without login
 	"""
 
-class TestViews(TestBase):
+class TestViews():
 	def test_homepage_view(self):
 		"""
 		Test that homepage is accessible without login
 		"""
-		
+
 		response = self.client.get(url_for('app.hello'))
 
 
