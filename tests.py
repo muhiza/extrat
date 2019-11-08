@@ -10,13 +10,12 @@ from app import hello
 class TestBase(TestCase):
 
 class TestViews(TestBase):
-    def test_homepage_view(self):
-    """
-    Test that homepage is accessible without login
-    """
-        response = self.client.get(url_for('app.hello'))
-
+	def test_homepage_view(self):
+	"""
+	Test that homepage is accessible without login
+	"""
+		response = self.client.get(url_for('app.hello'))
 
 
 if __name__ == '__main__':
-    unittest.main()
+	unittest.main()
